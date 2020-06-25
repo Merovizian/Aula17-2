@@ -42,7 +42,8 @@ for p, c in enumerate(pessoas):
         lista_maior.append(c[0])
 
 print(f"Ao todo você cadastrou {quantidade} pessoas")
-print(f"O maior peso foi de {maior}. Peso de {lista_maior}")
-print(f"O menor peso foi de {menor}. Peso de {lista_menor}")
+print(pessoas)
+print(f"O maior peso foi de {maior}kg. Peso de {lista_maior}")
+print(f"O menor peso foi de {menor}kg. Peso de {lista_menor}")
 
 
